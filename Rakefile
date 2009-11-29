@@ -5,11 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "mw"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "tomoya@cirius.co.jp"
+    gem.summary = %Q{Meow version of @jugyo's g}
+    gem.description = %Q{printing variables to Growl using Meow. The original idea is borrowed from @jugyo's g.}
+    gem.email = "hiranotomoya@gmail.com"
     gem.homepage = "http://github.com/tomoya55/mw"
-    gem.authors = ["Tomoya"]
+    gem.authors = ["tomoya55"]
+    gem.add_dependency "meow", ">= 2.1.0"
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
