@@ -28,6 +28,10 @@ module Kernel
     end
   end
 
+  def tapmw
+    tap { mw block_given? ? yield(self) : self }
+  end
+
   def mw1(*args)
     args << {:priority => -2}
     mw(*args)

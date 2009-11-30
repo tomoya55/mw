@@ -1,9 +1,13 @@
 = mw
 
-Description goes here.
+Meow version of jugyo's g: print variables to Growl.
+
+== History
+
+2009-11-30 added "tapmw" inspired by http://d.hatena.ne.jp/darashi/20091120/1258748817
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
